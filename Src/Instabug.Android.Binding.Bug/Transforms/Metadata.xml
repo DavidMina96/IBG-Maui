@@ -1,0 +1,18 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <remove-node path="/api/package[@name='com.instabug.bug']/class[@name='BugReportingActivityLauncher']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.network']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.screenshot']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.screenshot.viewhierarchy']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.screenshot.viewhierarchy.utilities']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.view']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.view']/class[@name='BugReportingActivity']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.view.annotation']/class[@name='AnnotationFragment']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.view.disclaimer']/class[@name='DisclaimerListAdapter']" />
+</metadata>

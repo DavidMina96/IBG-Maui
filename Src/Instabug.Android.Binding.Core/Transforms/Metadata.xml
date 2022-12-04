@@ -1,0 +1,140 @@
+﻿<metadata>
+  <remove-node path="/api/package[@name='com.instabug.library.annotation']" />
+  <remove-node path="/api/package[@name='com.instabug.library.annotation.recognition']" />
+  <remove-node path="/api/package[@name='com.instabug.library.annotation.recognition']/class[@name='Weight']" />
+  <remove-node path="/api/package[@name='com.instabug.library.annotation.shape']" />
+  <remove-node path="/api/package[@name='com.instabug.library.annotation.utility']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.broadcast']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.bugreporting']" />
+  <remove-node path="/api/package[@name='com.instabug.library.bugreporting.network']" />
+  <remove-node path="/api/package[@name='com.instabug.library.bugreporting.view']" />
+  <remove-node path="/api/package[@name='com.instabug.library.bugreporting.view.disclaimer']/class[@name='DisclaimerListAdapter']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.core.eventbus']" />
+  <remove-node path="/api/package[@name='com.instabug.library.core.plugin']/class[@name='PluginPromptOption']" />
+  <remove-node path="/api/package[@name='com.instabug.library.core.ui']" />
+  <remove-node path="/api/package[@name='com.instabug.library.core.ui']/class[@name='BaseFragmentActivity']" /> 
+
+  <remove-node path="/api/package[@name='com.instabug.library.crashreporting']" />
+  <remove-node path="/api/package[@name='com.instabug.library.crashreporting.cache']" />
+  <remove-node path="/api/package[@name='com.instabug.library.crashreporting.models']" />
+  <remove-node path="/api/package[@name='com.instabug.library.crashreporting.network']" />
+  <remove-node path="/api/package[@name='com.instabug.library.crashreporting.utils']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.dialog']" />
+	
+  <remove-node path="/api/package[@name='com.instabug.library.instacapture']" />
+  <remove-node path="/api/package[@name='com.instabug.library.instacapture.exception']" />
+  <remove-node path="/api/package[@name='com.instabug.library.instacapture.listener']" />
+  <remove-node path="/api/package[@name='com.instabug.library.instacapture.screenshot']" />
+  <remove-node path="/api/package[@name='com.instabug.library.instacapture.utility']" />
+	
+  <remove-node path="/api/package[@name='com.instabug.library.internal.device']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.media']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.storage']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.storage.cache']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.video']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.view']" />
+	
+  <remove-node path="/api/package[@name='com.instabug.library.invocation.invoker']" />
+  <remove-node path="/api/package[@name='com.instabug.library.invocation']/class[@name='InvocationManager']" />
+  <remove-node path="/api/package[@name='com.instabug.library.invocation']/interface[@name='InvocationListener']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.internal.storage.cache.db']/class[@name='InstabugDbContract']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.logging']/class[@name='InstabugLogDbHelper']" />
+  <remove-node path="/api/package[@name='com.instabug.library.logging']/class[@name='InstabugUserEventLogger']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.messaging']" />
+  <remove-node path="/api/package[@name='com.instabug.library.messaging.cache']" />
+  <remove-node path="/api/package[@name='com.instabug.library.messaging.model']" />
+  <remove-node path="/api/package[@name='com.instabug.library.messaging.service']" />
+  <remove-node path="/api/package[@name='com.instabug.library.messaging.synchronization']" />
+ 
+  <remove-node path="/api/package[@name='com.instabug.library.migration']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='AssetEntity']" />
+  <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='Attachment']" />
+  <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='BaseReport']" />
+  <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='ConsoleLog']" />
+  <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='NotificationMessage']" />
+  <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='Session']" />
+  <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='State']" />
+  <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='UserAttributes']" />
+  <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='UserStep']" />
+  <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='UserTrackingStep']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.network.service']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.screenshot']" />	
+  <remove-node path="/api/package[@name='com.instabug.library.screenshot.viewinspection']" />
+  <remove-node path="/api/package[@name='com.instabug.library.screenshot.viewinspection.utilities']" />
+
+
+  <remove-node path="/api/package[@name='com.instabug.library.surveys']" />
+  <remove-node path="/api/package[@name='com.instabug.library.surveys.cache']" />
+  <remove-node path="/api/package[@name='com.instabug.library.surveys.models']" />
+  <remove-node path="/api/package[@name='com.instabug.library.network']" />
+ 
+  <remove-node path="/api/package[@name='com.instabug.library.tracking']" /> 
+	
+  <remove-node path="/api/package[@name='com.instabug.library.ui.fragment.actionList']" />
+  <remove-node path="/api/package[@name='com.instabug.library.ui.promptoptions']" />
+  <remove-node path="/api/package[@name='com.instabug.library.ui.custom']/class[@name='MaterialMenuDrawable']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.user']/class[@name='UserManager']" />
+	
+  <remove-node path="/api/package[@name='com.instabug.library.util']" />
+	
+  <remove-node path="/api/package[@name='com.instabug.library.view']" />
+	
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='Constants']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugAddAttachmentsFragment']" /> 
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugAnnotationFragment']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugAudioRecordingFragment']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugBaseFragment']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugDelegate']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugFeaturesManager']" /> 
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugFeedbackActivity']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugFeedbackActivityLauncher']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugNotificationManager']" /> 
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugTouchesCoordinates']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='SessionManager']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.video']/class[@name='VideoFrameSnapper']" />
+
+
+  <remove-node path="/api/package[@name='com.instabug.bug']" />
+  <remove-node path="/api/package[@name='com.instabug.bug']/class[@name='BugReportingActivityLauncher']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.network']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.screenshot']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.screenshot.viewhierarchy']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.screenshot.viewhierarchy.utilities']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.view']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.view']/class[@name='BugReportingActivity']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.view.annotation']/class[@name='AnnotationFragment']" />
+  <remove-node path="/api/package[@name='com.instabug.bug.view.disclaimer']/class[@name='DisclaimerListAdapter']" />
+
+  <remove-node path="/api/package[@name='com.instabug.chat']" />
+  <remove-node path="/api/package[@name='com.instabug.chat.cache']" />
+  <remove-node path="/api/package[@name='com.instabug.chat.model']" />
+  <remove-node path="/api/package[@name='com.instabug.chat.model']/class[@name='NotificationMessage']" />
+  <remove-node path="/api/package[@name='com.instabug.chat.network.service']" />
+  <remove-node path="/api/package[@name='com.instabug.chat.notification']/class[@name='NotificationManager']" />
+  <remove-node path="/api/package[@name='com.instabug.chat.synchronization']" />
+  <remove-node path="/api/package[@name='com.instabug.chat.ui.annotation']/class[@name='AnnotationFragment']" />
+  <remove-node path="/api/package[@name='com.instabug.chat.ui.chat']/class[@name='AttachmentsBottomSheetFragment']" />
+  <remove-node path="/api/package[@name='com.instabug.chat.ui.chat']" />
+
+  <remove-node path="/api/package[@name='com.instabug.crash']" />
+  <remove-node path="/api/package[@name='com.instabug.crash.cache']" />
+  <remove-node path="/api/package[@name='com.instabug.crash.models']" />
+  <remove-node path="/api/package[@name='com.instabug.crash.network']" />
+  <remove-node path="/api/package[@name='com.instabug.crash.utils']" />
+    
+  <remove-node path="/api/package[@name='com.instabug.survey']" />
+  <remove-node path="/api/package[@name='com.instabug.survey.cache']" />
+  <remove-node path="/api/package[@name='com.instabug.survey.models']" />
+	
+</metadata>

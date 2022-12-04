@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+  </PropertyGroup>
+  <ItemGroup>
+    <AndroidLibrary Update="Jars/instabug-chat-11.4.0.aar" Pack="false" />
+    <None Update="Jars/instabug-chat-11.4.0.aar" Pack="true" PackagePath="lib\$(TargetFramework)$(TargetPlatformVersion)" />
+  </ItemGroup>
+</Project>

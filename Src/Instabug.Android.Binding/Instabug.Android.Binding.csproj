@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Instabug.Android.Binding.APM\Instabug.Android.Binding.APM.csproj" />
+    <ProjectReference Include="..\Instabug.Android.Binding.Bug\Instabug.Android.Binding.Bug.csproj" />
+    <ProjectReference Include="..\Instabug.Android.Binding.Chat\Instabug.Android.Binding.Chat.csproj" />
+    <ProjectReference Include="..\Instabug.Android.Binding.Core\Instabug.Android.Binding.Core.csproj" />
+    <ProjectReference Include="..\Instabug.Android.Binding.Crash\Instabug.Android.Binding.Crash.csproj" />
+    <ProjectReference Include="..\Instabug.Android.Binding.FeatureRequest\Instabug.Android.Binding.FeatureRequest.csproj" />
+    <ProjectReference Include="..\Instabug.Android.Binding.Survey\Instabug.Android.Binding.Survey.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="System.Reactive" />
+    <None Remove="System.Reactive.Linq" />
+    <None Remove="System.Runtime.InteropServices" />
+    <None Remove="System.Threading.Tasks.Extensions" />
+    <None Remove="Xamarin.Android.ReactiveStreams" />
+    <None Remove="Xamarin.Android.ReactiveX.RxAndroid" />
+    <None Remove="Xamarin.Android.ReactiveX.RxJava" />
+    <None Remove="Xamarin.AndroidX.Browser" />
+    <None Remove="Xamarin.AndroidX.Lifecycle.LiveData" />
+    <None Remove="Xamarin.AndroidX.MultiDex" />
+    <None Remove="Xamarin.Google.Android.Material" />
+    <None Remove="Xamarin.Kotlin.StdLib" />
+    <None Remove="Xamarin.Kotlin.StdLib.Common" />
+    <None Remove="Xamarin.Kotlin.StdLib.Jdk7" />
+    <None Remove="Xamarin.AndroidX.AppCompat" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
+    <PackageReference Include="System.Reactive.Linq" Version="5.0.0" />
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+    <PackageReference Include="Xamarin.Android.ReactiveStreams" Version="1.0.4.2" />
+    <PackageReference Include="Xamarin.Android.ReactiveX.RxAndroid" Version="2.1.1.1" />
+    <PackageReference Include="Xamarin.Android.ReactiveX.RxJava" Version="2.2.21.8" />
+    <PackageReference Include="Xamarin.AndroidX.Browser" Version="1.4.0.3" />
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.5.1.1" />
+    <PackageReference Include="Xamarin.AndroidX.MultiDex" Version="2.0.1.15" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.7.0.1" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.7.20.1" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Common" Version="1.7.20.1" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.7.20.1" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.5.1.1" />
+  </ItemGroup>
+</Project>

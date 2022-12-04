@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Instabug.Maui</id>
+    <version>0.1.0</version>
+    <title>Instabug for .NET MAUI</title>
+    <authors>Instabug</authors>
+    <owners>Instabug</owners>
+    <description>A NuGet package for integrating the Instabug SDK in .NET MAUI apps</description>
+    <summary></summary>
+    <releaseNotes>
+    </releaseNotes>
+    <dependencies>
+      <group targetFramework="net6.0-android21">
+        <dependency id="Xamarin.Android.ReactiveX.RxAndroid" version="2.1.1.1" />
+      </group>
+    </dependencies>
+  </metadata>
+
+   <files>
+     <file src="bin\Release\net6.0-android\Instabug.*.dll" target="lib\net6.0-android21"/>
+     <file src="bin\Release\net6.0-android\*.aar" target="lib\net6.0-android21"/>
+     <file src="bin\Release\net6.0-ios\Instabug.iOS.Binding.dll" target="lib\net6.0-ios11"/>
+     <file src="bin\Release\net6.0-ios\Instabug.MAUI.dll" target="lib\net6.0-ios11"/>
+     <file src="..\Instabug.iOS.Binding\bin\Release\net6.0-ios\Instabug.iOS.Binding.resources\**" target="lib\net6.0-ios11\Instabug.iOS.Binding.resources"/>
+  </files>
+</package>
